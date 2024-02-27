@@ -24,8 +24,8 @@ function get_Date() {          //Wrote a function that includes an if statement/
     }
 }
 
-function Age_Function() {          //Intentionally wrote a function with an error in it and use the console.log() method to debug it within the console in the Chrome Dev Tools//
-    Age = document.getElementById("Age");
+function Age_Function( {          //Intentionally wrote a function with an error in it and use the console.log() method to debug it within the console in the Chrome Dev Tools//
+    Age = document.getElementById("Age").value;
     if (Age >= 18) {
         Vote = "You are old enough to vote!";
     }
@@ -34,6 +34,8 @@ function Age_Function() {          //Intentionally wrote a function with an erro
     }
     document.getElementById("How_old_are_you?").innerHTML = Vote;
 }
+
+console.log("Age_Function() is missing )");
 
 function Time_function() {          //Wrote the Time_function() outlined in previous slides//
     var Time = new Date().getHours();
