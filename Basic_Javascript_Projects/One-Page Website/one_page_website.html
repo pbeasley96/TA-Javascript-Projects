@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>The World of Hyper Cars | Top of the Line</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/one_page_website.css">
+  </head>
+
+  <body>
+
+      <!--NAV-->
+      <div class="wrap">
+        <div class="menu-container">
+          <ul class="menu">
+            <a href="#home" id="link"><li>HOME</li></a>
+            <a href="#gallery"><li>GALLERY</li></a>
+            <a href="#videos"><li>VIDEOS</li></a>
+            <a href="#contact"><li>CONTACT</li></a>
+          </ul>
+        </div>
+      </div>
+      <!--END NAV-->
+
+      <!--HOME-->
+      <div id="home">
+        <div class="container">
+          <div class="text-center">
+            <span class="head-main">World of Hyper Cars</span>
+          </div>
+        </div>
+      </div>
+      <!--END HOME-->
+
+      <!--GALLERY-->
+      <section id="gallery">
+        <div class="container">
+          <h1>Gallery</h1>
+          <div class="flex-container">
+
+            <!--PHOTO-CONTAINER 1 -->
+            <div class="photo-container">
+              <div class="photo">
+                <img src="Images/Thumb/Thumbnail_1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                <div class="photo-overlay">
+                  <h3>Click to Enlarge</h3>
+                  <p>The Bugatti Chiron is a mid-engine two-seater sports car designed and developed in Germany.</p>
+                </div>
+              </div>
+            </div>
+            <!--END PHOTO-CONTAINER 1 -->
+
+            <!--PHOTO-CONTAINER 2 -->
+            <div class="photo-container">
+              <div class="photo">
+                <img src="Images/Thumb/Thumbnail_2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                <div class="photo-overlay">
+                  <h3>Click to Enlarge</h3>
+                  <p>The Bugatti Veyron EB 16.4 is a mid-engine sports car, designed and developed in Germany.</p>
+                </div>
+              </div>
+            </div>
+            <!--END PHOTO-CONTAINER 2 -->
+
+            <!--PHOTO-CONTAINER 3 -->
+            <div class="photo-container">
+              <div class="photo">
+                <img src="Images/Thumb/Thumbnail_3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                <div class="photo-overlay">
+                  <h3>Click to Enlarge</h3>
+                  <p>The Koenigsegg Agera is a mid-engine sports car produced by Swedish car manufacturer Koenigsegg.</p>
+                </div>
+              </div>
+            </div>
+            <!--END PHOTO-CONTAINER 3 -->
+
+            <!--PHOTO-CONTAINER 4 -->
+            <div class="photo-container">
+              <div class="photo">
+                <img src="Images/Thumb/Thumbnail_4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                <div class="photo-overlay">
+                  <h3>Click to Enlarge</h3>
+                  <p>The Lamborghini Aventador is a mid-engine sports car produced by the Italian automotive manufacturer Lamborghini.</p>
+                </div>
+              </div>
+            </div>
+            <!--END PHOTO-CONTAINER 4 -->
+
+            <!--PHOTO-CONTAINER 5 -->
+            <div class="photo-container">
+              <div class="photo">
+                <img src="Images/Thumb/Thumbnail_5.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+                <div class="photo-overlay">
+                  <h3>Click to Enlarge</h3>
+                  <p>The Pagani Huayra is a mid-engine sports car produced by Italian sports car manufacturer Pagani.</p>
+                </div>
+              </div>
+            </div>
+            <!--END PHOTO-CONTAINER 5 -->
+
+            <!--PHOTO-CONTAINER 6 -->
+            <div class="photo-container">
+              <div class="photo">
+                <img src="Images/Thumb/Thumbnail_6.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+                <div class="photo-overlay">
+                  <h3>Click to Enlarge</h3>
+                  <p>The Aston Martin Vulcan is a high-performance lightweight track-only car launched in 2015 by British luxury automobile manufacturer Aston Martin.</p>
+                </div>
+              </div>
+            </div>
+            <!--END PHOTO-CONTAINER 6 -->
+
+            <!--PHOTO-CONTAINER 7 -->
+            <div class="photo-container">
+              <div class="photo">
+                <img src="Images/Thumb/Thumbnail_7.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+                <div class="photo-overlay">
+                  <h3>Click to Enlarge</h3>
+                  <p>The McLaren P1 is a sports car produced by British marque McLaren Automotive, first shown in 2012 at the Paris Motor Show.</p>
+                </div>
+              </div>
+            </div>
+            <!--END PHOTO-CONTAINER 7 -->
+
+            <!--PHOTO-CONTAINER 8 -->
+            <div class="photo-container">
+              <div class="photo">
+                <img src="Images/Thumb/Thumbnail_8.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+                <div class="photo-overlay">
+                  <h3>Click to Enlarge</h3>
+                  <p>LaFerrari is a limited production mid-engine, mild hybrid sports car built by Italian automotive manufacturer Ferrari, first produced back in 2013.</p>
+                </div>
+              </div>
+            </div>
+            <!--END PHOTO-CONTAINER 8 -->
+
+            <!-- MODAL/LIGHTBOX -->
+            <div id="myModal" class="modal">
+              <span class="close cursor" onclick="closeModal()">&times;</span>
+              <div class="modal-content">
+            
+                <div class="mySlides">
+                  <div class="numbertext">1 / 8</div>
+                  <img src="Images/Thumb/Thumbnail_1.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                  <div class="numbertext">2 / 8</div>
+                  <img src="Images/Thumb/Thumbnail_2.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                  <div class="numbertext">3 / 8</div>
+                  <img src="Images/Thumb/Thumbnail_3.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                  <div class="numbertext">4 / 8</div>
+                  <img src="Images/Thumb/Thumbnail_4.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">5 / 8</div>
+                  <img src="Images/Thumb/Thumbnail_5.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                  <div class="numbertext">6 / 8</div>
+                  <img src="Images/Thumb/Thumbnail_6.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                  <div class="numbertext">7 / 8</div>
+                  <img src="Images/Thumb/Thumbnail_7.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                  <div class="numbertext">8 / 8</div>
+                  <img src="Images/Thumb/Thumbnail_8.jpg" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="caption-container">
+                  <p id="caption"></p>
+                </div>
+
+                <div class="column">
+                  <img class="demo" src="Images/Thumb/Thumbnail_1.jpg" onclick="currentSlide(1)" alt="Chiron">
+                </div>
+            
+                <div class="column">
+                  <img class="demo" src="Images/Thumb/Thumbnail_2.jpg" onclick="currentSlide(2)" alt="Veyron">
+                </div>
+            
+                <div class="column">
+                  <img class="demo" src="Images/Thumb/Thumbnail_3.jpg" onclick="currentSlide(3)" alt="Agera">
+                </div>
+            
+                <div class="column">
+                  <img class="demo" src="Images/Thumb/Thumbnail_4.jpg" onclick="currentSlide(4)" alt="Aventador">
+                </div>
+
+                <div class="column">
+                  <img class="demo" src="Images/Thumb/Thumbnail_5.jpg" onclick="currentSlide(5)" alt="Huayra">
+                </div>
+            
+                <div class="column">
+                  <img class="demo" src="Images/Thumb/Thumbnail_6.jpg" onclick="currentSlide(6)" alt="Vulcan">
+                </div>
+            
+                <div class="column">
+                  <img class="demo" src="Images/Thumb/Thumbnail_7.jpg" onclick="currentSlide(7)" alt="P1">
+                </div>
+            
+                <div class="column">
+                  <img class="demo" src="Images/Thumb/Thumbnail_8.jpg" onclick="currentSlide(8)" alt="LaFerrari">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--END GALLERY-->
+
+      <!--VIDEOS-->
+      <section id="videos">
+        <div id="container">
+          <h1>VIDEOS</h1>
+          <div class="flex-container">
+
+            <!--VIDEO-CONTAINER 1 -->
+            <div class="video-container">
+              <div class="video">
+                <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/kcmWknKtJkk?si=aGB2_AjTRPFdlupe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+
+                <div class="video-overlay">
+                  <h3>Click to View</h3>
+                  <p>A Video review of the Bugatti Chiron</p>
+                </div>
+              </div>
+            </div>
+            <!--END VIDEO-CONTAINER 1 -->
+
+            <!--VIDEO-CONTAINER 2 -->
+            <div class="video-container">
+              <div class="video">
+                <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/nxPNRiFMbL8?si=amQDtArc4TFo5aKW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+
+                <div class="video-overlay">
+                  <h3>Click to View</h3>
+                  <p>A Video review of the Bugatti Veyron</p>
+                </div>
+              </div>
+            </div>
+            <!--END VIDEO-CONTAINER 2 -->
+
+            <!--VIDEO-CONTAINER 3 -->
+            <div class="video-container">
+              <div class="video">
+                <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/_eXcPKdarLQ?si=ODWYJhO0B0EnGKYd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+
+                <div class="video-overlay">
+                  <h3>Click to View</h3>
+                  <p>A Video review of the Koenigsegg Agera RS1</p>
+                </div>
+              </div>
+            </div>
+            <!--END VIDEO-CONTAINER 3 -->
+
+            <!--VIDEO-CONTAINER 4 -->
+            <div class="video-container">
+              <div class="video">
+                <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/vmLOdP1DhX8?si=gfQTGwxw2SHAiYH2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+
+                <div class="video-overlay">
+                  <h3>Click to View</h3>
+                  <p>A Video review of the Lamborghini Aventador</p>
+                </div>
+              </div>
+            </div>
+            <!--END VIDEO-CONTAINER 4 -->
+
+            <!--VIDEO-CONTAINER 5 -->
+            <div class="video-container">
+              <div class="video">
+                <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/WnyPtKQKP3Y?si=cNRuSU3G9FkOyV5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+
+                <div class="video-overlay">
+                  <h3>Click to View</h3>
+                  <p>A Video review of the Pagani Huayra</p>
+                </div>
+              </div>
+            </div>
+            <!--END VIDEO-CONTAINER 5 -->
+
+            <!--VIDEO-CONTAINER 6 -->
+            <div class="video-container">
+              <div class="video">
+                <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/sEVOFYZz4zY?si=GskZxF91mMuXxJN7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+
+                <div class="video-overlay">
+                  <h3>Click to View</h3>
+                  <p>A Video review of the Aston Martin Vulcan</p>
+                </div>
+              </div>
+            </div>
+            <!--END VIDEO-CONTAINER 6 -->
+
+            <!--VIDEO-CONTAINER 7 -->
+            <div class="video-container">
+              <div class="video">
+                <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/og-cW8zMGBc?si=Fmo3nDUScXy4rKdF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+
+                <div class="video-overlay">
+                  <h3>Click to View</h3>
+                  <p>A Video review of the McLaren P1</p>
+                </div>
+              </div>
+            </div>
+            <!--END VIDEO-CONTAINER 7 -->
+
+            <!--VIDEO-CONTAINER 8 -->
+            <div class="video-container">
+              <div class="video">
+                <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/ngLQfhJZ7Rs?si=sYA5CY66VfyzOcmf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+
+                <div class="video-overlay">
+                  <h3>Click to View</h3>
+                  <p>A Video review of the LaFerrari</p>
+                </div>
+              </div>
+            </div>
+            <!--END VIDEO-CONTAINER 8 -->
+
+          </div>
+        </div>
+      </section>
+      <!--END VIDEOS-->
+
+      <!--CONTACT-->
+      <section id="contact">
+        <div class="container">
+          <div class="heading-padding">
+            <h1 class="heading-padding">Contact</h1>
+            <div class="contact-info">
+              <h2><span><em>Find the Car for your lifestyle .</span>
+                <br />Explore, and find your new ride today!</em>
+              </h2>
+              <p class="rsvp-text">
+                Please provide us with your basic contact information.
+              </p>
+              <div class="form-rsvp">
+                <form action="" method="post">
+                  <input class="rsvp" type="text" value=""  placeholder="First Name">
+                  <input class="rsvp" type="text" value=""  placeholder="Last Name">
+                  <input class="rsvp" type="text" value=""  placeholder="Email Address">
+                  <input class="rsvp" type="text" value=""  placeholder="Phone Number">
+                  <div class="form-spacer">
+                    <label class="terms">Terms and Conditions</label>
+                  </div>
+                  <div class="submit">
+                    <input type="submit" value="Submit">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--END CONTACT-->
+
+      <!--FOOTER-->
+      <div id="footer">
+        www.TopoftheLine.Hypercars &nbsp;|&nbsp; &copy; 2024
+      </div>
+      <!--END FOOTER-->
+
+    <script src="JS/main.js"></script>
+    
+  </body>
+</html>
