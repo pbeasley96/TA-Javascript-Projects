@@ -404,7 +404,7 @@ section {
 .photo:hover img {
     transform: scale(1.1);
 }
-  
+
 .modal {
     display: none;
     position: fixed;
@@ -417,6 +417,7 @@ section {
     overflow: auto;
     background-color: black;
 }
+  
 
 .modal-content {
     position: relative;
@@ -426,6 +427,7 @@ section {
     width: 90%;
     max-width: 1200px;
 }
+  
 
 .close {
     color: silver;
@@ -442,10 +444,12 @@ section {
     text-decoration: none;
     cursor: pointer;
 }
+  
 
 .mySlides {
     display: none;
 }
+  
 
 .prev,
 .next {
@@ -455,7 +459,7 @@ section {
     width: auto;
     padding: 16px;
     margin-top: -50px;
-    color: white;
+    color: silver;
     font-weight: bold;
     font-size: 20px;
     transition: 0.6s ease;
@@ -469,15 +473,15 @@ section {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
-
+  
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
-
+  
 .numbertext {
     color: silver;
-    font-size: 12px;
+    font-size: 15px;
     padding: 8px 12px;
     position: absolute;
     top: 0;
@@ -495,7 +499,7 @@ img.demo {
 }
   
 .active,
-.demo:hover {
+  .demo:hover {
     opacity: 1;
 }
   

@@ -1,9 +1,9 @@
-// This function opens the Modal//
+// Open the Modal
 function openModal() {
   document.getElementById("myModal").style.display = "block";
 }
 
-// This function closes the Modal//
+// Close the Modal
 function closeModal() {
   document.getElementById("myModal").style.display = "none";
 }
@@ -11,12 +11,12 @@ function closeModal() {
 var slideIndex = 1;
 showSlides(slideIndex);
 
-// This function controls the Next/previous inputs//
+// Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// This function controls the Thumbnail images//
+// Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }

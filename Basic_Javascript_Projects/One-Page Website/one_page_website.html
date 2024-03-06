@@ -8,6 +8,7 @@
   </head>
 
   <body>
+  <script src="JS/main.js"></script>
 
       <!--NAV-->
       <div class="wrap">
@@ -40,103 +41,105 @@
 
             <!--PHOTO-CONTAINER 1 -->
             <div class="photo-container">
-              <div class="photo">
-                <img src="Images/Thumb/Thumbnail_1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+              <img src="Images/Thumb/Thumbnail_1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                <div class="photo">
                 <div class="photo-overlay">
                   <h3>Click to Enlarge</h3>
                   <p>The Bugatti Chiron is a mid-engine two-seater sports car designed and developed in Germany.</p>
                 </div>
-              </div>
+                </div>
             </div>
             <!--END PHOTO-CONTAINER 1 -->
 
             <!--PHOTO-CONTAINER 2 -->
             <div class="photo-container">
-              <div class="photo">
-                <img src="Images/Thumb/Thumbnail_2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+              <img src="Images/Thumb/Thumbnail_2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                <div class="photo">
                 <div class="photo-overlay">
                   <h3>Click to Enlarge</h3>
                   <p>The Bugatti Veyron EB 16.4 is a mid-engine sports car, designed and developed in Germany.</p>
                 </div>
-              </div>
+                </div>
             </div>
             <!--END PHOTO-CONTAINER 2 -->
 
             <!--PHOTO-CONTAINER 3 -->
             <div class="photo-container">
-              <div class="photo">
-                <img src="Images/Thumb/Thumbnail_3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+              <img src="Images/Thumb/Thumbnail_3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                <div class="photo">
                 <div class="photo-overlay">
                   <h3>Click to Enlarge</h3>
                   <p>The Koenigsegg Agera is a mid-engine sports car produced by Swedish car manufacturer Koenigsegg.</p>
                 </div>
-              </div>
+                </div>
             </div>
             <!--END PHOTO-CONTAINER 3 -->
 
             <!--PHOTO-CONTAINER 4 -->
             <div class="photo-container">
-              <div class="photo">
-                <img src="Images/Thumb/Thumbnail_4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+              <img src="Images/Thumb/Thumbnail_4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                <div class="photo">
                 <div class="photo-overlay">
                   <h3>Click to Enlarge</h3>
                   <p>The Lamborghini Aventador is a mid-engine sports car produced by the Italian automotive manufacturer Lamborghini.</p>
                 </div>
-              </div>
+                </div>
             </div>
             <!--END PHOTO-CONTAINER 4 -->
 
             <!--PHOTO-CONTAINER 5 -->
             <div class="photo-container">
-              <div class="photo">
-                <img src="Images/Thumb/Thumbnail_5.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+              <img src="Images/Thumb/Thumbnail_5.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+                <div class="photo">
                 <div class="photo-overlay">
                   <h3>Click to Enlarge</h3>
                   <p>The Pagani Huayra is a mid-engine sports car produced by Italian sports car manufacturer Pagani.</p>
                 </div>
-              </div>
+                </div>
             </div>
             <!--END PHOTO-CONTAINER 5 -->
 
             <!--PHOTO-CONTAINER 6 -->
             <div class="photo-container">
+              <img src="Images/Thumb/Thumbnail_6.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
               <div class="photo">
-                <img src="Images/Thumb/Thumbnail_6.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
                 <div class="photo-overlay">
                   <h3>Click to Enlarge</h3>
                   <p>The Aston Martin Vulcan is a high-performance lightweight track-only car launched in 2015 by British luxury automobile manufacturer Aston Martin.</p>
                 </div>
-              </div>
+                </div>
             </div>
             <!--END PHOTO-CONTAINER 6 -->
 
             <!--PHOTO-CONTAINER 7 -->
             <div class="photo-container">
-              <div class="photo">
-                <img src="Images/Thumb/Thumbnail_7.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+              <img src="Images/Thumb/Thumbnail_7.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+                <div class="photo">
                 <div class="photo-overlay">
                   <h3>Click to Enlarge</h3>
                   <p>The McLaren P1 is a sports car produced by British marque McLaren Automotive, first shown in 2012 at the Paris Motor Show.</p>
                 </div>
-              </div>
+                </div>
             </div>
             <!--END PHOTO-CONTAINER 7 -->
 
             <!--PHOTO-CONTAINER 8 -->
             <div class="photo-container">
+              <img src="Images/Thumb/Thumbnail_8.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
               <div class="photo">
-                <img src="Images/Thumb/Thumbnail_8.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
                 <div class="photo-overlay">
                   <h3>Click to Enlarge</h3>
                   <p>LaFerrari is a limited production mid-engine, mild hybrid sports car built by Italian automotive manufacturer Ferrari, first produced back in 2013.</p>
                 </div>
-              </div>
+                </div>
             </div>
             <!--END PHOTO-CONTAINER 8 -->
 
             <!-- MODAL/LIGHTBOX -->
             <div id="myModal" class="modal">
               <span class="close cursor" onclick="closeModal()">&times;</span>
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
               <div class="modal-content">
             
                 <div class="mySlides">
@@ -178,9 +181,6 @@
                   <div class="numbertext">8 / 8</div>
                   <img src="Images/Thumb/Thumbnail_8.jpg" style="width:100%">
                 </div>
-
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
                 <div class="caption-container">
                   <p id="caption"></p>
@@ -392,8 +392,6 @@
         www.TopoftheLine.Hypercars &nbsp;|&nbsp; &copy; 2024
       </div>
       <!--END FOOTER-->
-
-    <script src="JS/main.js"></script>
     
   </body>
 </html>
