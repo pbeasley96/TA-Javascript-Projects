@@ -6,6 +6,7 @@ Tic Tac Toe
 Calculator
 
 Pizza Menu
+<br>
   This Project is a menu used to order Pizza with a various selection of toppings. It then takes the information and calculates price for the order.
   
 Tic Tac Toe
